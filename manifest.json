@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Steal GPS My City Bookmars",
+  "description": "Damn you, gpsmycity, I had to write all this shit because you have no export on your web site",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
